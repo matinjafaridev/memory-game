@@ -448,9 +448,9 @@ function App() {
             >
               <div
                 className={`flip-card-inner  ${
-                  whichCard.cardOne == item.id && "test"
-                } ${whichCard.cardTwo == item.id && "test"} ${
-                  item.isTrue && "test"
+                  whichCard.cardOne == item.id && "rotateY180"
+                } ${whichCard.cardTwo == item.id && "rotateY180"} ${
+                  item.isTrue && "rotateY180"
                 }`}
               >
                 <div className="flex items-center justify-center rounded flip-card-front">
@@ -494,7 +494,7 @@ function App() {
           className="relative overflow-hidden flex justify-between flex-col size-[200px] sm:size-[400px] p-4 sm:p-8
          bg-purple-600 rounded-md"
         >
-          <img className="absolute " src="/testgif.gif" alt="" />
+          <img className="absolute " src="/happyhappy.gif" alt="" />
           <div className="text-base font-bold text-center sm:text-4xl">
             winner winner
           </div>
