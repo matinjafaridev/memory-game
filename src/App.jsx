@@ -465,7 +465,7 @@ function App() {
         </div>
         <div className="flex z-50 font text-xs sm:text-base md:text-2xl items-center justify-between w-full h-[15%]">
           <div className="flex items-center justify-center">
-            <span className="font-ChunkyUnicornDemoRegular">time </span>:
+            <span className="font-bold ">time </span>:
             <span className="font-extrabold ">
               <div>
                 <h1>
@@ -477,10 +477,8 @@ function App() {
             </span>
           </div>
           <div className="font-bold">
-            <span className="font-ChunkyUnicornDemoRegular">
-              number of attempts
-            </span>
-            :<span className="font-extrabold ">{tryTimes}</span>
+            <span className="font-bold ">number of attempts</span>:
+            <span className="font-extrabold ">{tryTimes}</span>
           </div>
         </div>
       </div>
@@ -497,13 +495,13 @@ function App() {
          bg-purple-600 rounded-md"
         >
           <img className="absolute " src="/testgif.gif" alt="" />
-          <div className="text-base text-center sm:text-4xl font-ChunkyUnicornDemoRegular">
+          <div className="text-base font-bold text-center sm:text-4xl">
             winner winner
           </div>
           <div className="flex items-center justify-between">
             <div className="flex  z-50 font text-xs sm:text-2xl items-start justify-between w-full h-[15%]">
               <div className="flex items-center justify-center">
-                <span className="font-ChunkyUnicornDemoRegular">time </span>:
+                <span className="font-bold">time </span>:
                 <span className="font-extrabold ">
                   <div>
                     <h1>
@@ -541,8 +539,8 @@ function App() {
                   />
                 </svg>
               </div>
-              <div className="font-bold">
-                <span className="font-ChunkyUnicornDemoRegular">efforts</span>:
+              <div className="">
+                <span className="font-bold">efforts</span>:
                 <span className="font-extrabold ">{tryTimes}</span>
               </div>
             </div>
